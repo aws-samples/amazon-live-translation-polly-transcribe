@@ -1,0 +1,9 @@
+boto3
+pyaudio
+websocket-client
+asyncio
+aiofile
+amazon-transcribe
+samplerate
+numpy
+pytictoc
