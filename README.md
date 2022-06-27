@@ -1,3 +1,9 @@
+## Description
+In this post, you will learn how to use three fully managed AWS services (Amazon Transcribe (https://aws.amazon.com/transcribe/), Amazon Translate (https://aws.amazon.com/translate/), and Amazon Polly (https://aws.amazon.com/polly/)) to produce a near-real-time speech-to-speech translator solution that can quickly translate a source speaker’s live voice input into a spoken, accurate, translated target language, all with zero machine learning (ML) experience.
+
+### Architectural Diagram
+![](../../Downloads/ML-6711_ArchDiagram.png)
+
 ### Pre-requisites:
 
 1. Python 3.7.9 
@@ -9,8 +15,7 @@
     - AmazonTranscribeFullAccess
     - AmazonPollyFullAccess
 5. AWS CLI
-
-5. Run aws confgure incommand prompt to configure the aws cli with the previously mentioned IAM user secret and access keys. When running the python script, the aws python library boto3 will look for these necessary security parameters and authorize/authenticate your aws api calls. 
+6. Run AWS configure in command prompt to configure the AWS cli with the previously mentioned IAM user secret and access keys. When running the python script, the AWS python library boto3 will look for these necessary security parameters and authorize/authenticate your AWS api calls. 
 
 ### Steps to run the bot:
 
@@ -40,3 +45,11 @@ Notes: For security reasons, the code that writes to files for later analysis ha
 Contents of the old files folder can be explained as sort of a 'discovery in process' log of the iterations of the bot and experimentations, we left them for later examination if you so choose. 
 
 ```
+
+## Security
+
+See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+
+## License
+
+This library is licensed under the MIT-0 License. See the LICENSE file.
