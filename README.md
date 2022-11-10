@@ -5,7 +5,7 @@ Please check out our blog post here: https://aws.amazon.com/blogs/machine-learni
 In this post, you will learn how to use three fully managed AWS services (Amazon Transcribe (https://aws.amazon.com/transcribe/), Amazon Translate (https://aws.amazon.com/translate/), and Amazon Polly (https://aws.amazon.com/polly/)) to produce a near-real-time speech-to-speech translator solution that can quickly translate a source speaker’s live voice input into a spoken, accurate, translated target language, all with zero machine learning (ML) experience.
 
 ### Architectural Diagram
-![](../../Downloads/ML-6711_ArchDiagram.png)
+![](s2s_lang_assist_arch_final.png)
 
 ### Pre-requisites:
 
